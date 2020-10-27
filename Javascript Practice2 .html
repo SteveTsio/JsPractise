@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Practice2</title>
+</head>
+<body>
+    <script>
+    /*Δημιουργήστε μια HTML σελίδα που να:
+    Ζητάει την ακτίνα ενός κύκλου
+    Υπολογίζει την περίμετρο και το εμβαδό του κύκλου
+    Εμφανίζει στον browser (με χρήση της alert) τα δύο αποτελέσματα
+    Περίμετρος = 2 · π · R
+    Εμβαδό = π · R2*/
+
+    "use strict";
+
+    // Μπορούσα να δηλώσω const PI = 3.14; 
+
+    let radius = prompt("Give me the radius")
+    parseFloat(radius);
+    alert("Perimeter is" + " " + 2 * radius + "π") // Και να βάλω πολλαπλασιασμό αντί για την προσθήκη του γράμματος    
+    alert("Total area is" + " " + radius*radius + "π") // αλλά μαθηματικά είναι πιο ακριβές έτσι.  
+    
+    </script>
+</body>
+</html>
